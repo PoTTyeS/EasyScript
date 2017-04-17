@@ -7,6 +7,7 @@ from tkinter import messagebox
 from tkinter import ttk
 import os
 from subprocess import Popen
+import time
 
 class MainWindow(ttk.tkinter.Frame): 
 
@@ -100,7 +101,8 @@ class MainWindow(ttk.tkinter.Frame):
 		
     def CompileScript(self):
         try:
-            os.system("C:/EasyScript/main.bat ")
+            os.system("C:/EasyScript/main.bat")
+			
         except Exception:
             e = "ERROR SYNTAXED EDITOR BY Itagochi 2017"
             print (e)

@@ -200,21 +200,21 @@ def parse(toks):
 		elif toks[i] + " " + toks[i+1][0:3] + " " + toks[i+2] + " " + toks[i+3][0:3] + " " + toks[i+4] == "IF NUM EQEQ NUM THEN":
 			
 			if toks[i+1][4:] == toks[i+3][4:]:
-				NepotrebnaVAR = 0
+				pass
 			else:
 				print("Error: If (False)")
 			i+=5
 		elif toks[i] + " " + toks[i+1][0:6] + " " + toks[i+2] + " " + toks[i+3][0:3] + " " + toks[i+4] == "CLASS STRING EQEQ NUM THEN":
 			
 			if toks[i+1][7:] != toks[i+3][4:]:
-				NepotrebnaVAR = 0
+				pass
 			else:
 				print("Error: Class (False)")
 			i+=5
 		elif toks[i] + " " + toks[i+1][0:6] + " " + toks[i+2] + " " + toks[i+3][0:3] + " " + toks[i+4] == "FUNCTION STRING EQEQ NUM THEN":
 			
 			if toks[i+1][7:] != toks[i+3][4:]:
-				NepotrebnaVAR = 0
+				pass
 			else:
 				print("Error: Function (False)")
 			i+=5
