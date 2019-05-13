@@ -1,6 +1,6 @@
 #
 # EasyScript
-# By Itagochi 
+# By PoTTyeS
 # Copyright 2017
 #
 
