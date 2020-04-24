@@ -1,6 +1,6 @@
 # EasyScript
 
-ES is something like Framework for python with own file type .es
+EasyScript is something like Framework for python with own file type .es
 
 EasyScript:
 - Print anything
