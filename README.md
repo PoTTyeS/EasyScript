@@ -6,7 +6,7 @@ EasyScript:
 - Print anything
 - Set or Print variables
 - Typical if
-- Typical functions (this language as DEF and ENDDEF)
+- Typical functions (DEF and ENDDEF)
 - Classes
 - function TIME (day/month/year ... hour/minutes/seconds)
 - Input
